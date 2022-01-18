@@ -1,8 +1,8 @@
 @font-face {
-    font-family: roboto
-    font-style: normal;
+    font-family: Roboto
+    font-style: light;
     font-weight: 300;
-    src: local('roboto-condensed'), url(roboto-condensed.woff2) format('woff2');
+    src: local('roboto-condensed-light'), url(roboto-condensed-light.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -10,9 +10,9 @@ body {
     text-align: center;
     background: #272727;
     overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
-    font-weight: 800;
+    font-weight: 300;
     font-size: 40px;
     color: #fff;
     margin: 0;
